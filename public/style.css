@@ -1,0 +1,83 @@
+/* * {
+  box-sizing: border-box;
+} */
+body {
+  align-items: center;
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+}
+.controls {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5px;
+  padding: 5px;
+  width: 100%;
+}
+.request {
+  background-color: #611;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  width: 30%;
+}
+.request:hover {
+  background-color: #555;
+}
+.catCard {
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+}
+img {
+  border-radius: 10px;
+  height:50vh;
+  object-fit: cover;
+  width: 50vh;
+}
+.left {
+  gap: 20px;
+  justify-content: flex-start;
+}
+.left i {
+  cursor: pointer;
+}
+.left i:hover {
+  color: #611;
+}
+form {
+  align-content: stretch;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: 50px;
+  justify-content: stretch;
+}
+form input {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+form button {
+  background-color: #611;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: #555;
+}
+.comment {
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 5px 0;
+}
+.comment span {
+  font-weight: bold;
+}
